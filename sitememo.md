@@ -46,3 +46,7 @@ https://note.com/
 ## economy
 
 - https://sc.macromicro.me/
+
+## magic surf
+
+- https://v2rayse.com/free-v2ray/
