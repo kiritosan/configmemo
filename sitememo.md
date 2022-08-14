@@ -50,3 +50,7 @@ https://note.com/
 ## magic surf
 
 - https://v2rayse.com/free-v2ray/
+
+## study
+
+- https://tsejx.github.io/javascript-guidebook/
