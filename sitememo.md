@@ -1,8 +1,6 @@
-- https://www.30secondsofcode.org/
-- https://github.com/ascoders/weekly
--
-
 ## tool
+
+- https://www.30secondsofcode.org/
 
 ### software
 
@@ -54,3 +52,4 @@ https://note.com/
 ## study
 
 - https://tsejx.github.io/javascript-guidebook/
+- https://github.com/ascoders/weekly
