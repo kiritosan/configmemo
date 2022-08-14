@@ -45,7 +45,7 @@ https://note.com/
 
 - https://sc.macromicro.me/
 
-## magic surf
+## magic surfing
 
 - https://v2rayse.com/free-v2ray/
 
