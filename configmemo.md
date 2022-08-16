@@ -42,9 +42,9 @@ There’s a ton of different motions but we’ll get into that in a second, for 
 
 ## mappings
 
-map('v','J',':m⋅.+1<CR>==V')
+map('v','<A-j>':m⋅.+1<CR>==V')
 
-map('v','K',':m⋅.-2<CR>==V')
+map('v','<A-k>':m⋅.-2<CR>==V')
 
 z. jump to start
 
