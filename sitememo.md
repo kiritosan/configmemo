@@ -31,9 +31,11 @@
 
 ## blog
 
-https://note.com/
+- https://note.com/
 
 ## video
+
+- https://rule34video.com/
 
 ### anime
 
