@@ -1,4 +1,4 @@
-# shell
+## shell
 
 S 删除当前行 并删除前第一个非空字符进入插入模式
 
@@ -20,9 +20,9 @@ c-g 跳过当前命令执行(但屏幕上保留命令)
 
 c-q 暂时清空当前命令,执行下一条命令后自动显示
 
-# nvim
+## nvim
 
-## 操作
+### 操作
 
 https://einverne.github.io/post/2019/08/fzf-usage.html
 
@@ -48,16 +48,16 @@ map('v','<A-k>':m⋅.-2<CR>==V')
 
 z. jump to start
 
-# wsl gui map to VcXrv
+## wsl gui map to VcXrv
 
-## wsl settings
+### wsl settings
 
 ```zsh
 export DISPLAY=`cat /etc/resolv.conf | grep nameserver | awk '{print $2}'`:0
 export LIBGL_ALWAYS_INDIRECT=1
 ```
 
-## alias
+### alias
 
 ```zsh
 alias vi=nvim
@@ -65,9 +65,9 @@ alias vim=nvim
 alias ls=exa
 ```
 
-# support systemd to wsl
+## support systemd to wsl
 
-## support systemd
+### support systemd
 
 ```
 if [[-v WSL_DISTRO_NAME]] then
@@ -79,7 +79,7 @@ fi
 fi
 ```
 
-# terminal software
+## terminal software
 
 - ghq
 
@@ -131,10 +131,12 @@ fi
 
 - visidata
 
-# neovim
+## neovim
 
 skcode
 
-# dwm
+z. jump to start
+
+## dwm
 
 chadwm

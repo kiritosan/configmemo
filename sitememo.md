@@ -22,10 +22,13 @@
 - https://excalidraw.com/
 - https://komiic.com/
 - https://j9jp.com/
+- https://j8jp.com/
+- https://skebetter.com/
 
 ## voice
 
 - https://japaneseasmr.com/
+- https://www.hentaiasmr.moe/
 - https://otobanana.com/
 - https://voicy.jp/
 
@@ -55,3 +58,7 @@
 
 - https://tsejx.github.io/javascript-guidebook/
 - https://github.com/ascoders/weekly
+
+## news
+
+- https://togetter.com/
