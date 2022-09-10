@@ -1,4 +1,5 @@
-# list
+# vscode configuration
+## plugin list
 
 - REST Client
 - remote wsl
@@ -49,3 +50,10 @@
 - vetur
 - vue language features(volar)
 - wakatime
+
+## configuration
+
+参考
+https://www.cnblogs.com/ytwanzi/p/13048468.html
+
+editor.scrollBeyondLastLin = false
