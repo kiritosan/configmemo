@@ -24,13 +24,13 @@ c-q 暂时清空当前命令,执行下一条命令后自动显示
 
 ### 操作
 
-https://einverne.github.io/post/2019/08/fzf-usage.html
+<https://einverne.github.io/post/2019/08/fzf-usage.html>
 
-https://yianwillis.github.io/vimcdoc/doc/index.html#z
+<https://yianwillis.github.io/vimcdoc/doc/index.html#z>
 
 c-u 删除之前的内容到第一个非空字符
 
-https://sean-warman.medium.com/why-vim-is-better-than-vscode-d09e2355eb37
+<https://sean-warman.medium.com/why-vim-is-better-than-vscode-d09e2355eb37>
 
 operator — text object — motion
 
@@ -42,24 +42,26 @@ There’s a ton of different motions but we’ll get into that in a second, for 
 
 ## mappings
 
+```bash
 map('v','<A-j>':m⋅.+1<CR>==V')
 
 map('v','<A-k>':m⋅.-2<CR>==V')
 
 z. jump to start
+```
 
 ## wsl gui map to VcXrv
 
 ### wsl settings
 
-```zsh
+```bash
 export DISPLAY=`cat /etc/resolv.conf | grep nameserver | awk '{print $2}'`:0
 export LIBGL_ALWAYS_INDIRECT=1
 ```
 
 ### alias
 
-```zsh
+```bash
 alias vi=nvim
 alias vim=nvim
 alias ls=exa
@@ -69,7 +71,7 @@ alias ls=exa
 
 ### support systemd
 
-```
+```bash
 if [[-v WSL_DISTRO_NAME]] then
 if (( $+commands[subsystemctl] )); then
 if ! subsystemctl is-running; then
