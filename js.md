@@ -439,6 +439,16 @@ logo.calssList.contains('c')
 logo.className = 'test'
 ```
 
+```javascript
+h1.childNodes;
+h1.children;
+
+h1.parentNode;
+h1.parentElement;
+
+h1.closest('.header').style.background = 'xxx';
+```
+
 ## 滚动
 
 ```javascript
@@ -482,3 +492,53 @@ e.currentTarget;
 // 停止传播 能不用绝对不用
 e.stopPropagation();
 ```
+
+## observer
+
+https://www.bilibili.com/video/BV1vA4y197C7?p=185&vd_source=8237c1b247b860b4776b5cf7378d3908
+
+```javascript
+const obsCallback = function (entries, observer) {
+  entries.forEach((entry) => {
+    console.log(entry);
+  });
+};
+const obsOptions = {
+  root: null,
+  threshold: 0.1,
+};
+const observer = new IntersectionObserver(obsCallback, obsOptions);
+observer.observe(section1);
+```
+
+```javascript
+/* lazyload img */
+const imgTargets = document.querySelectorAll('img[data-src]');
+
+const loadImg = function (entries, observer) {
+  const [entry] = entries;
+  console.log(entry);
+  if (!entry.isIntersecting) return;
+
+  entry.target.src = entry.target.dataset.src;
+  entry.target.classList.remove('lazy-img');
+
+  entry.target.addEventListener('load', function () {});
+
+  observer.unobserve(entry.target);
+};
+
+const imgObserver = new IntersectionObserver(loadImg, {
+  root: null,
+  threshold: 0,
+  rootMargin: '200px',
+});
+```
+
+## DOM lifecycle
+
+1. DOMContentLoaded
+2. load
+3. beforeunload e.returnValue = ''
+
+https://www.bilibili.com/video/BV1vA4y197C7?p=200&vd_source=8237c1b247b860b4776b5cf7378d3908
