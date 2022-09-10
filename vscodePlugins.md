@@ -1,4 +1,5 @@
 # vscode configuration
+
 ## plugin list
 
 - REST Client
@@ -50,10 +51,14 @@
 - vetur
 - vue language features(volar)
 - wakatime
+- jump
+- preview vscodePlugins
 
 ## configuration
 
 参考
-https://www.cnblogs.com/ytwanzi/p/13048468.html
+<https://www.cnblogs.com/ytwanzi/p/13048468.html>
+
+<https://www.jianshu.com/p/ac739c6ea541>
 
 editor.scrollBeyondLastLin = false
