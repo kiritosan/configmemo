@@ -138,9 +138,13 @@ fi
 
 - broot
 
-antigen⋅bundle⋅reobin/typewritten@mai
+```bash
 
+# theme
+antigen⋅bundle⋅reobin/typewritten@mai
 export⋅TYPEWRITTEN_RELATIVE_PATH="adaptive"
+
+```
 
 ## neovim
 
