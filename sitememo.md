@@ -1,3 +1,8 @@
+## search engine
+
+- https://www.wuzhuiso.com/
+- https://fsoufsou.com/
+
 ## tool
 
 - https://www.30secondsofcode.org/
@@ -41,6 +46,7 @@
 
 - https://rule34video.com/
 - https://kemono.party/
+- https://xsijishe.net/
 
 ### anime
 
