@@ -29,3 +29,4 @@ https://www.hi-linux.com/posts/28627.html#vip-container
 25. Cloc
 26. thefuck
 27. newsboat
+28. visidata
