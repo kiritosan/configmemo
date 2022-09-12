@@ -47,6 +47,7 @@
 - https://rule34video.com/
 - https://kemono.party/
 - https://xsijishe.net/
+- https://www.chongbuluo.com/thread-12377-1-1.html
 
 ### anime
 
