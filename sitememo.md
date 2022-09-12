@@ -40,6 +40,7 @@
 ## video
 
 - https://rule34video.com/
+- https://kemono.party/
 
 ### anime
 
