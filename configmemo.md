@@ -126,12 +126,21 @@ fi
 - fzf (使用安装脚本安装才会有快捷键绑定)
 
 - antigen⋅bundle⋅Aloxaf/fzf-tab
+  用 autojump 足够了 如有必要还可以用\*\*<TAB>
 
 - glow markdown viewer
 
 - nnn
 
 - visidata
+
+- antigen
+
+- broot
+
+antigen⋅bundle⋅reobin/typewritten@mai
+
+export⋅TYPEWRITTEN_RELATIVE_PATH="adaptive"
 
 ## neovim
 

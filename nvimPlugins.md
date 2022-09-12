@@ -2,3 +2,4 @@
 
 - neorg
 - comment
+- hydra
