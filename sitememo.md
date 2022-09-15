@@ -3,6 +3,10 @@
 - https://www.wuzhuiso.com/
 - https://fsoufsou.com/
 
+## book
+
+- https://find.looks.wang/index.html
+
 ## tool
 
 - https://www.30secondsofcode.org/
